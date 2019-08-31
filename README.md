@@ -12,7 +12,7 @@ At first, this work aim to detect facial smile by supervised learning approach. 
 The mouth aspect ratio (MAR) can distinguish the natural mouth from the smiling mouth (which no teeth exposed) but, for the big smile (which teeth exposed) there aren't so difference. By the way, it still possible by include the vertical position of corners of the mouse to the criteria. This work then detecting smile by MAR and vertical position of corners of the mouse.
 
 ## Method
-* First, we need to detect the face. Thank to (Adrian)[https://www.pyimagesearch.com/2017/04/24/eye-blink-detection-opencv-python-dlib/] for awersome library.
+* First, we need to detect the face. Thank to [Adrian](https://www.pyimagesearch.com/2017/04/24/eye-blink-detection-opencv-python-dlib/) for awersome library.
 * Fill the mouse area with the white and other area with the black.
 * Rotate the detected mouth to make its parallel to the horizontal line.
 * Determine the position of horizontal line that drawed between two corners of the mouth.
