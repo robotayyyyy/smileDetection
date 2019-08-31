@@ -22,5 +22,5 @@ The mouth aspect ratio (MAR) can distinguish the natural mouth from the smiling 
 * I don't think manualy thresholding features is the best idea. It would better to use the model for example, decision tree to define the  appropriate threshold. However, a good data set is required for such predictive model.
 * The proposed method does not work well for looked up/down face.
 * I need more face for evaluating performance of the method.
-
+* It would be better if denamic of the features be included to the criteria.
 ![](1.png)
